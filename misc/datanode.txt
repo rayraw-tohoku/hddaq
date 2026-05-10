@@ -1,2 +1,3 @@
 #node-name	port	ringbuf_size(byte)	ringbuf_len
-#localhost	9000 	8192			10
+# localhost	9001 	819200			100
+localhost	9002 	819200			100
