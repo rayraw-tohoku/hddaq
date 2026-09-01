@@ -3,7 +3,7 @@
 # Author: Shuhei Hayakawa
 
 #_______________________________________________________________________________
-TARGET	= rayraw_frontend
+TARGET	= frontend_rayraw
 
 CORE_DIR	= ../core
 HUL_CORE_DIR	= ../hul_core_rayraw
