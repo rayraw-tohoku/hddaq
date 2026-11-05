@@ -7,7 +7,8 @@ import subprocess
 from struct import *
 from tkinter import *
 
-mtm_host = '192.168.10.3'
+#mtm_host = '192.168.10.3'
+mtm_host = '192.168.10.2'
 
 #______________________________________________________________________________
 class ChildProc(Frame):

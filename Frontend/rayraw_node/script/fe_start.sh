@@ -16,8 +16,8 @@ sleep 1
 # en_slot=(0x0, 0x1, 0x3, 0x1, 0x3)
 
 #start rayraw
-# for i in $(seq 1 1)
-for i in $(seq 2 2)
+for i in $(seq 1 1)
+#for i in $(seq 2 2)
 # for i in $(seq 1 2)
 do
     nodeid=`expr $((0x100)) + $i`
@@ -26,9 +26,9 @@ do
     sitcp_ip=192.168.11.`expr 100 + $i`
 
     # rayraw v3 ip
-    if [ "$i" -eq 2 ]; then
-       sitcp_ip=192.168.10.16
-    fi
+   # if [ "$i" -eq 2 ]; then
+   #    sitcp_ip=192.168.10.16
+   # fi
 
 
 
@@ -46,5 +46,5 @@ do
 	$sitcp_ip \
 	$min_window \
 	$max_window \
-	>/dev/null 2>/dev/null &
+	&>/dev/null 2>/dev/null &
 done
