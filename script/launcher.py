@@ -199,8 +199,8 @@ if __name__ == '__main__':
   app.controller_entry('CONTROLLER',
                        'Controller/controller.py '
                        +f'--data-path {storage_path} '
-                       +f'--data-path-list {path_list} '
-                       +f'--mtm-host {mtm_host}')
+                       +f'--data-path-list {path_list} ')
+                      # +f'--mtm-host {mtm_host}')
   app.makebuttons()
   app.updater()
   app.mainloop()
