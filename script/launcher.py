@@ -8,7 +8,7 @@ from struct import *
 from tkinter import *
 
 #mtm_host = '192.168.10.3'
-mtm_host = '192.168.10.2'
+mtm_host = '192.168.100.100'
 
 #______________________________________________________________________________
 class ChildProc(Frame):
